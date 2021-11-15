@@ -5,14 +5,5 @@ function toBlink(){
     }else{
       titleBlink.style.visibility="hidden";
     }
-  
 }
-
 window.setInterval(toBlink,900);
-
-
-let adminMain;
-let nameUser;
-nameUser = "Jon";
-adminMain = nameUser;
-alert(adminMain);
